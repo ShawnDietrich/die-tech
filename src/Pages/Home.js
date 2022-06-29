@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <>
             <div className="headerCell">
-                <h1>Providing Innovative Web Solutions For The Modern World</h1>
+                <h1>Providing Innovative Web Solutions For The Modern Business</h1>
             </div>
             <Container className="container">
 

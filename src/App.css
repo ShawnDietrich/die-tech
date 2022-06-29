@@ -77,7 +77,7 @@ h1 {
 
 .footerBlock {
   text-align: center;
-  background-color: rgb(131, 155, 233);
+  background-color: rgba(124, 67, 25, 0.425);
   padding: 1em;
   font-family:'Cormorant Upright', serif;
   display: flex;
