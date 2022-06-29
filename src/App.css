@@ -49,16 +49,43 @@ h1 {
 }
 
 .headerCell {
-  padding: 2em 0;
+  padding: 4em 0;
+  text-align: center;
+  font-family: 'Cormorant Upright', serif;
 }
 
 .serviceRow {
-  margin: 3em 0
+  margin: 3em 0;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0;
 }
 
-img {
-  border: 1px solid black;
-  border-radius: 1em;
+.colImg {
+  position: relative;
+  left: auto;
+  padding: 1em
+}
+
+.servImg {
+
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.footerBlock {
+  text-align: center;
+  background-color: rgb(131, 155, 233);
+  padding: 1em;
+  font-family:'Cormorant Upright', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerBlock p {
+  margin: 0;;
 }
 
 /*Screen Size Functions*/
