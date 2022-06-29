@@ -1,8 +1,9 @@
 import React from "react";
-import { Card, Row, Col, Container, Image } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import Design from '../Pictures/Design.jpg'
 import flexCode from '../Pictures/flexablecode.jpg'
 import codeDevelopment from '../Pictures/CodeDevelopment.jpg'
+import deployment from '../Pictures/deployment.jpg'
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
 
                 <Row className="serviceRow">
                     <Col className="colImg" md={4}>
-                        <img className="servImg" src={Design} thumbnail />
+                        <img className="servImg" src={Design} alt='' />
                     </Col>
                     <Col md={{ span: 6, offset: 1 }}>
                         <h2 className="serviceTitle">Colabertive Frontend Design</h2>
@@ -29,19 +30,30 @@ const Home = () => {
 
                     </Col>
                     <Col className="colImg" md={4} >
-                        <img className="servImg" src={flexCode} />
+                        <img className="servImg" src={flexCode} alt='' />
                     </Col>
                 </Row>
 
                 <Row className="serviceRow">
                     <Col className="colImg" md={4}>
-                        <img className="servImg" src={codeDevelopment} />
+                        <img className="servImg" src={codeDevelopment} alt='' />
                     </Col>
                     <Col md={{ span: 6, offset: 1 }}>
 
                         <h2 className="serviceTitle">Custom Web Applications</h2>
                         <p className="serviceDesc">Applications designed for online use or software as a service (SAS)</p>
                     </Col>
+                </Row>
+
+                <Row className="serviceRow">
+                    <Col md={{ span: 6, offset: 2 }}>
+                        <h2 className="serviceTitle">Flexable Deployment Options</h2>
+                        <p className="serviceDesc">Ability to deploy your site with any domain of your choosing</p>
+                    </Col>
+                    <Col className="colImg" md={4}>
+                        <img className="servImg" src={deployment} alt='' />
+                    </Col>
+
                 </Row>
             </Container>
 
