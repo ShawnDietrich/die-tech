@@ -4,12 +4,15 @@ import Design from '../Pictures/Design.jpg'
 import flexCode from '../Pictures/flexablecode.jpg'
 import codeDevelopment from '../Pictures/CodeDevelopment.jpg'
 import deployment from '../Pictures/deployment.jpg'
+import Header from "./Components/Header";
 
 const Home = () => {
     return (
         <>
+            <Header/>
+            
             <div className="headerCell">
-                <h1>Providing Innovative Web Solutions For The Modern Business</h1>
+                <h1>Providing Innovative Web Solutions For The Modern Businesses</h1>
             </div>
             <Container className="container">
 
@@ -18,7 +21,7 @@ const Home = () => {
                         <img className="servImg" src={Design} alt='' />
                     </Col>
                     <Col md={{ span: 6, offset: 1 }}>
-                        <h2 className="serviceTitle">Colabertive Frontend Design</h2>
+                        <h2 className="serviceTitle">Collaborative Frontend Design</h2>
                         <p className="serviceDesc">I work directly with you to create a custom online space</p>
                     </Col>
                 </Row>
