@@ -6,6 +6,7 @@ import Home from './Pages/Home';
 import Book from './Pages/Book'
 import Footer from './Pages/Components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Service from './Pages/Service';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/book' element={<Book />} />
+          <Route path='/services' element={<Service />} />
         </Routes>
         <Footer />
       </Router>

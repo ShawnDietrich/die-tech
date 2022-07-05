@@ -20,7 +20,7 @@ const Navigation = () => {
                     <Nav className='me-auto'>
                         <Nav.Link href='/'>Home</Nav.Link>
                         <Nav.Link href="#">Portfolio</Nav.Link>
-                        <Nav.Link href="#">Services</Nav.Link>
+                        <Nav.Link href="/services">Services</Nav.Link>
                         <Nav.Link href="/book">Contact</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
