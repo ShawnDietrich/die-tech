@@ -4,32 +4,6 @@ import { Row, Col, Container, Card, OverlayTrigger, Popover } from "react-bootst
 const Service = () => {
 
 
-    const backendDetail = (
-        <Popover id='popover-basic'>
-            <Popover.Body>
-                Using Node.js and popular frameworks like Express
-                we can provide flexable and maintainable server side code
-                that will easily interact with just about any database
-            </Popover.Body>
-        </Popover>
-    )
-    const databaseDetail = (
-        <Popover id='popover-basic'>
-            <Popover.Body>
-                Design and build dynamic, and responsive databases
-                using popular databse programs such as; SQL, PostgreSQL, and MySQL
-            </Popover.Body>
-        </Popover>
-    )
-    const authDetail = (
-        <Popover id='popover-basic'>
-            <Popover.Body>
-                Making use of popular and secure frameworks we can
-                provide secure password hashing and encryption services
-            </Popover.Body>
-        </Popover>
-    )
-
     function cardBuilder(index, bgKey, title, text, overlayText) {
         return (
 
