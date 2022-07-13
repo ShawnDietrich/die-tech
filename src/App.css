@@ -12,7 +12,7 @@ h1 {
   margin: 0 auto;
 }
 .title h1 {
-  margin-left: 2em;
+  text-align: center;
   padding-top: 2em;
   font-size: 4em;
   color: black;
@@ -20,10 +20,10 @@ h1 {
 
 .header::after {
   content: '';
-  background-image: url(./Pictures/coffeepictures.jpg);
+  background-image: url(./Pictures/whiteBackground.jpg);
   background-position: center;
   background-size: cover;
-  opacity: 0.65;
+  opacity: 1.0;
   top: 0;
   left: 0;
   bottom: 0;
@@ -31,6 +31,8 @@ h1 {
   position: absolute;
   z-index: -1;
 }
+
+
 
 .serviceList {
   display: flex;

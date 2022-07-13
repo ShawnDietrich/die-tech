@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <div className="portfolioBg">
       <Container style={{ padding: "5em 0em" }}>
-        <Row>
+        <Row data-aos="zoom-in-up">
           <Col>
             <Card className="bg-dark text-white">
               <Card.Img
@@ -21,6 +21,8 @@ const Portfolio = () => {
                   <a
                     href="https://ancientwisdombirth.ca/"
                     className="stretched-link link-light" 
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Ancient Wisdom Birth Dolua
                   </a>
@@ -40,6 +42,8 @@ const Portfolio = () => {
                   <a
                     href="https://norfolk-home-foot-care.com/"
                     className="stretched-link link-light"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Norfolk Home Foot Care
                   </a>
@@ -49,7 +53,7 @@ const Portfolio = () => {
           </Col>
         </Row>
         <br/>
-        <Row>
+        <Row data-aos="zoom-in-up">
           <Col>
             <Card className="bg-dark text-white">
               <Card.Img
@@ -62,6 +66,8 @@ const Portfolio = () => {
                   <a
                     href="https://made-to-order.herokuapp.com/"
                     className="stretched-link link-light"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Custom E-Commerce Example
                   </a>

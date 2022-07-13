@@ -7,13 +7,13 @@ const Header = () => {
     return (
         <div className="header">
             <div className="title">
-                <h1>Dietrich Web Services</h1>
+                <h1>Made To Order Websites</h1>
             </div>
             <div className="serviceList">
                 <ul>
                     <li>Website Development</li>
                     <li>Web Application Design and Development</li>
-                    <li>Website maintenance and support</li>
+                    <li>Website Maintenance and Support</li>
                 </ul>
             </div>
 
