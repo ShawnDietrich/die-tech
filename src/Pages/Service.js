@@ -50,7 +50,7 @@ const Service = () => {
                                 1,
                                 'Secondary',
                                 'Database Programming',
-                                'Dynamic / Effcient Database Design',
+                                'Dynamic / Effcient Database',
                                 "Design and build dynamic, and responsive databases using popular databse programs such as; SQL, PostgreSQL, and MySQL"
                             )}
                         </Col>
@@ -123,7 +123,7 @@ const Service = () => {
                                 1,
                                 'Info',
                                 'Innovative Solutions',
-                                'Making use of modern techonolgy',
+                                'Use of modern techonolgy',
                                 "We use modern programming languages and frameworks to build websites and databases that are supported for years to come"
                             )}
                         </Col>

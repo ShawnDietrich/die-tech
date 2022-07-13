@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 h1 {
-  font-family: 'Cormorant Upright', serif;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+p {
+  font-family: 'Roboto Mono', monospace;
 }
 
 .header {
   width: 100%;
-  height: 30em;
+  height: 40em;
   display: block;
   position: relative;
   margin: 0 auto;
-}
-.title h1 {
-  text-align: center;
-  padding-top: 2em;
-  font-size: 4em;
-  color: black;
 }
 
 .header::after {
@@ -31,15 +32,31 @@ h1 {
   position: absolute;
   z-index: -1;
 }
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.title h1 {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 4em;
+  color: #342626;
+}
 
-
+.homeBackground{
+  background-color: #989186;
+  padding-bottom: 5em;
+}
+.serviceRow {
+  background: #342626;
+  color: #989186;
+}
 
 .serviceList {
   display: flex;
   justify-content: center;
   margin-bottom: auto;
   font-size: 15pt;
-  font-family: 'Cormorant Upright', serif;
   position: relative;
   top: 210px;
   color: black;
@@ -79,7 +96,7 @@ h1 {
 
 .footerBlock {
   text-align: center;
-  background-color: rgba(124, 67, 25, 0.425);
+  background-color: #342626;
   padding: 1em 0em;
   font-family:'Cormorant Upright', serif;
   display: flex;
@@ -88,8 +105,11 @@ h1 {
 }
 .footerBlock p {
   margin: 0;
+  color: #989186;
 }
-
+.formBackground{
+  background-color: #989186;
+}
 .bookForm {
   width: 40%;
   margin: 0em auto;
@@ -164,7 +184,7 @@ h1 {
 }
 
 .cardService {
-  width: 18em;
+  width: 20em;
 }
 
 .card-img {
@@ -173,6 +193,11 @@ h1 {
 
 .portfolioBg {
   padding: 5em 0em;
+  background-color: #989186;
+  
+}
+.portfolioLink{
+  font-family:  'Roboto', sans-serif;
 }
 
 /*Screen Size Functions*/
@@ -199,6 +224,12 @@ h1 {
     font-size: 3em;
     padding-top: 1em;
   }
+  .imgLogo{
+    width: 50%;
+  }
+  .serviceList{
+    top: 100px;
+  }
   .bookForm {
     width: 90%;
   }
@@ -212,4 +243,7 @@ h1 {
     padding-bottom: 1em;
   }
 
+  .portfolioLink{
+    font-size: 10pt;
+  }
 }

@@ -5,9 +5,8 @@ const Footer = () => {
     return (
         <>
             <div className="footerBlock">
-                <p>Created by Dietrich Web Services</p>
+                <p>Created by Made To Order Web Services</p>
                 <p>Email: shawn.m.dietrich@gmail.com</p>
-                <p>Phone: 905-299-7656</p>
             </div>
         
         </>

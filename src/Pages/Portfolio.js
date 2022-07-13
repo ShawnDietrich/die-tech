@@ -12,7 +12,7 @@ const Portfolio = () => {
           <Col>
             <Card className="bg-dark text-white">
               <Card.Img
-                style={{ Opacity: "0.5" }}
+                
                 src={awbs}
                 alt="https://ancientwisdombirth.ca/"
               />
@@ -20,11 +20,11 @@ const Portfolio = () => {
                 <Card.Title>
                   <a
                     href="https://ancientwisdombirth.ca/"
-                    className="stretched-link link-light" 
+                    className="stretched-link link-light portfolioLink" 
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Ancient Wisdom Birth Dolua
+                    Static Website
                   </a>
                 </Card.Title>
               </Card.ImgOverlay>
@@ -41,11 +41,11 @@ const Portfolio = () => {
                 <Card.Title>
                   <a
                     href="https://norfolk-home-foot-care.com/"
-                    className="stretched-link link-light"
+                    className="stretched-link link-light portfolioLink"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Norfolk Home Foot Care
+                    Static Website
                   </a>
                 </Card.Title>
               </Card.ImgOverlay>
@@ -65,7 +65,7 @@ const Portfolio = () => {
                 <Card.Title>
                   <a
                     href="https://made-to-order.herokuapp.com/"
-                    className="stretched-link link-light"
+                    className="stretched-link link-light portfolioLink"
                     target="_blank"
                     rel="noreferrer"
                   >

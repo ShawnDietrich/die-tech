@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from '../../Pictures/worldwide.png'
+import logo from '../../Pictures/logo512.png'
 const Navigation = () => {
     return (
         <>
@@ -10,7 +10,7 @@ const Navigation = () => {
                         <img
                             alt="Dietrich Web Services logo"
                             src={logo}
-                            width="30"
+                            width="50"
                             height="30"
                             className="d-inline-block align-top"
                         />
