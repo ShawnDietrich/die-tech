@@ -22,7 +22,7 @@ const Home = () => {
                         </Col>
                         <Col md={{ span: 6, offset: 1 }}>
                             <h2 className="serviceTitle">Collaborative Frontend Design</h2>
-                            <p className="serviceDesc">I work directly with you to create a custom online space</p>
+                            <p className="serviceDesc">We work directly with you to create a custom online space</p>
                         </Col>
                     </Row>
 
