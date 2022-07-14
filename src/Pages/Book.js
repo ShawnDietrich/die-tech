@@ -16,9 +16,11 @@ const Book = () => {
                 Accept: "application/json",
             },
             body: JSON.stringify({
-                FirstName: e.target[0].value,
-                LastName: e.target[1].value,
-                Notes: e.target[2].value
+                Date: e.target[0].value,
+                Time: e.target[1].value,
+                FirstName: e.target[2].value,
+                LastName: e.target[3].value,
+                Notes: e.target[4].value
             })
         }).then(() => {
             setShowMesg(true)
