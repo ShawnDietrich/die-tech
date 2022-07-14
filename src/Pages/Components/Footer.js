@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <div className="footerBlock">
                 <p>Created by Made To Order Web Services</p>
-                <p>Email: shawn.m.dietrich@gmail.com</p>
+                <p>Email: info@made-to-order.ca</p>
             </div>
         
         </>
