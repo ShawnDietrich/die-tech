@@ -125,7 +125,7 @@ p {
 }
 .bookHeader::after {
   content: '';
-  background-image: url(./Pictures/CodeDevelopment.jpg);
+  background-image: url(./Pictures/contactus.jpg);
   background-position: center;
   background-size: cover;
   opacity: 0.65;
@@ -232,6 +232,9 @@ p {
   }
   .bookForm {
     width: 90%;
+  }
+  .bookHeader h1 {
+    margin-left: 1em;
   }
 
   .backgroundImg {

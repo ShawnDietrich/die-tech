@@ -12,7 +12,7 @@ const Home = () => {
             <Header />
             <div className="homeBackground">
                 <div className="headerCell">
-                    <h1>Providing Innovative Web Solutions For Modern Businesses</h1>
+                    <h1>Providing Innovative Websites For Modern Businesses</h1>
                 </div>
                 <Container className="container">
 
@@ -22,14 +22,14 @@ const Home = () => {
                         </Col>
                         <Col md={{ span: 6, offset: 1 }}>
                             <h2 className="serviceTitle">Collaborative Frontend Design</h2>
-                            <p className="serviceDesc">We work directly with you to create a custom online space</p>
+                            <p className="serviceDesc">Whether you want a simple single page website or a full blown e-commerce website you are involved during the design process from begining to end </p>
                         </Col>
                     </Row>
 
                     <Row data-aos='fade-up' className="serviceRow">
                         <Col md={{ span: 6, offset: 2 }} >
                             <h2 className="serviceTitle">Backend Programming</h2>
-                            <p className="serviceDesc">Server side programming and / or database programming</p>
+                            <p className="serviceDesc">We provide full-scale server side programming and or database programming for your website or web application</p>
 
                         </Col>
                         <Col className="colImg" md={4} >
@@ -44,14 +44,14 @@ const Home = () => {
                         <Col md={{ span: 6, offset: 1 }}>
 
                             <h2 className="serviceTitle">Custom Web Applications</h2>
-                            <p className="serviceDesc">Applications designed for online use or software as a service (SAS)</p>
+                            <p className="serviceDesc">With web applications becoming a popular solution, we can take exisiting desktop applications and move it to a web based appliction so that your users can have acces to updated software 24/7</p>
                         </Col>
                     </Row>
 
                     <Row data-aos='fade-up' className="serviceRow">
                         <Col md={{ span: 6, offset: 2 }}>
-                            <h2 className="serviceTitle">Flexable Deployment Options</h2>
-                            <p className="serviceDesc">Ability to deploy your site with any domain of your choosing</p>
+                            <h2 className="serviceTitle">Small Business Static Website</h2>
+                            <p className="serviceDesc">For the small business owner that wants to get their name out into the world we offer competive packages that will provide you with a digital space you can be proud of</p>
                         </Col>
                         <Col className="colImg" md={4}>
                             <img className="servImg" src={deployment} alt='' />
