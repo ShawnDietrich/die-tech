@@ -20,7 +20,8 @@ const Book = () => {
                 Time: e.target[1].value,
                 FirstName: e.target[2].value,
                 LastName: e.target[3].value,
-                Notes: e.target[4].value
+                Email: e.target[4].value,
+                Notes: e.target[5].value
             })
         }).then(() => {
             setShowMesg(true)
@@ -59,6 +60,13 @@ const Book = () => {
                             <Form.Group as={Col} controlId='formGridLastName'>
                                 <Form.Label>Last Name</Form.Label>
                                 <FormControl name="lastName" type='lastName' placeholder='Enter Last Name' required />
+                            </Form.Group>
+                        </Row>
+
+                        <Row className="mb-3">
+                            <Form.Group as={Col} controlId='formGridEmail'>
+                                <Form.Label>Email Address</Form.Label>
+                                <FormControl name='email' type='email' placeholder="username@domain.com" required/>
                             </Form.Group>
                         </Row>
 
