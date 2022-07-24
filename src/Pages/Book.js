@@ -28,6 +28,9 @@ const Book = () => {
 
     return (
         <>
+            <div className="bookHeader">
+                
+            </div>
             <div className="formBackground">
                 <div className="bookForm">
                     <Alert key='info' variant="info" show={showMesg}>Your Message Has Been Sent</Alert>
