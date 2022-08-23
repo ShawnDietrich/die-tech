@@ -13,6 +13,8 @@ const Navigation = () => {
                             width="50"
                             height="30"
                             className="d-inline-block align-top"
+                            title="Logo"
+                            loading="lazy"
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
