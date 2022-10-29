@@ -11,7 +11,6 @@ import Portfolio from './Pages/Portfolio';
 
 function App() {
   return (
-    <div className="App">
       <Router>
         <Navigation />
         <Routes>
@@ -22,7 +21,6 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-    </div>
   );
 }
 

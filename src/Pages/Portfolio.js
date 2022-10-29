@@ -40,12 +40,12 @@ const Portfolio = () => {
               <Card.ImgOverlay>
                 <Card.Title>
                   <a
-                    href="https://norfolk-home-foot-care.com/"
+                    href="https://nhfootcare.ca/"
                     className="stretched-link link-light portfolioLink"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Static Website
+                    Small Business
                   </a>
                 </Card.Title>
               </Card.ImgOverlay>
@@ -64,7 +64,7 @@ const Portfolio = () => {
               <Card.ImgOverlay>
                 <Card.Title>
                   <a
-                    href="https://made-to-order.herokuapp.com/"
+                    href="https://ecommerce.made-to-order.ca/"
                     className="stretched-link link-light portfolioLink"
                     target="_blank"
                     rel="noreferrer"
