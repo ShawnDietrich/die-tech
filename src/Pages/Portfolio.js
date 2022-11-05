@@ -35,7 +35,7 @@ const Portfolio = () => {
               <Card.Img
                 style={{ Opacity: "0.5" }}
                 src={Norfolk}
-                alt="https://norfolk-home-foot-care.com/"
+                alt="https://nhfootcare.ca/"
               />
               <Card.ImgOverlay>
                 <Card.Title>
@@ -59,7 +59,7 @@ const Portfolio = () => {
               <Card.Img
                 style={{ Opacity: "0.5" }}
                 src={MadeToOrder}
-                alt="https://made-to-order.herokuapp.com/"
+                alt="https:/ecommerce.made-to-order.ca/"
               />
               <Card.ImgOverlay>
                 <Card.Title>
